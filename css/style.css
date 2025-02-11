@@ -3,7 +3,22 @@
 }
 
 .site-header {
-  background-color: white;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  
+}
+
+.site-header-list{
+  display: flex;
+  gap: 32px;
 }
 
 .sitenav-link {
@@ -36,7 +51,7 @@
 }
 
 .orange-line {
-  background-color:#ff7500;
+  background-color: #ff7500;
   width: 80px;
   height: 3px;
 }
@@ -104,19 +119,19 @@
   letter-spacing: 0.5px;
 }
 
-.site-footer{
+.site-footer {
   background-color: #fafafa;
 }
 
-.site-footer-divider{
+.site-footer-divider {
   background-color: #25242080;
   height: 2px;
 }
 
-.footer-link{
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-color: #252420;
-text-decoration: none;
+.footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #252420;
+  text-decoration: none;
 }
