@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./../fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./../fonts/Roboto_Condensed-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .list-none {
   list-style: none;
 }
@@ -13,36 +34,38 @@
   display: flex;
   align-items: center;
   gap: 32px;
-  
 }
 
-.site-header-list{
+.site-header-list {
   display: flex;
   gap: 32px;
-}
+} 
 
 .sitenav-link {
+  color: #000;
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 1px;
-  color: black;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .main-link {
-  background-color: #ff7500;
+  background-color: #FF7500;
   font-weight: 700;
   font-size: 13px;
-  line-height: 15.23px;
+  line-height: 15px;
   letter-spacing: 0.5px;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
 .hero-section {
   background-color: #252420;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content {
@@ -51,7 +74,7 @@
 }
 
 .orange-line {
-  background-color: #ff7500;
+  background-color: #FF7500;
   width: 80px;
   height: 3px;
 }
@@ -73,23 +96,23 @@
 .feature-title {
   font-size: 72px;
   font-weight: 700;
-  line-height: 86.4px;
+  line-height: 86px;
   letter-spacing: 0.5px;
 }
 
-.feature-iten {
+.feature-item {
   width: 340px;
   color: #000;
 }
 
-.featuer-iten-title {
+.feature-item-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28.8px;
   letter-spacing: 0.5px;
 }
 
-.feature-iten-text {
+.feature-item-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -120,7 +143,7 @@
 }
 
 .site-footer {
-  background-color: #fafafa;
+  background-color: #F8F8F8;
 }
 
 .site-footer-divider {
@@ -132,6 +155,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  color: #252420;
   text-decoration: none;
+  color: #252420;
 }
