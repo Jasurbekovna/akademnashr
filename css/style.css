@@ -47,6 +47,8 @@
   border-top: 5px solid #FF7500;
   padding-top: 16px;
   padding: 16px 0;
+  position: sticky;
+  z-index: 1;
 }
 
 .header-contanier {
@@ -124,8 +126,10 @@
   align-items: center;
 }
 
-.hero-section img {
+.hero-img {
   border-radius: 8px;
+  box-shadow: 24px 24px 0 0 #FF750099;
+
 }
 
 .hero-content {
@@ -231,6 +235,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .footer-top-list {
